@@ -18,8 +18,13 @@ Valuations, M&A and capital raising on one side. Production software, data platf
 ### Selected build: Operations & Finance Platform *(private, proprietary)*
 A full-stack platform that replaced spreadsheet-driven management in a multi-company services group.
 Site-level P&L, receivables ageing, payroll reconciliation, a 13-week cash-flow forecast, CRM, a risk register and role-based access for seven roles.
-**~64K lines · 50 pages · 28 schema migrations · 45 test suites · CI on every pull request.**
+**~64K lines · 50 pages · 42 schema migrations · 51 test suites · CI on every pull request.**
 → [Case study](https://github.com/DavidEzraRoyal/finance-ops-platform-case-study)
+
+### More production builds *(private, proprietary)*
+**Quote Studio: costing and pricing engine.** Prices a contract from what the work actually costs: a line-by-line build-up of labour, subcontractors, materials, equipment, supervision and overhead. Markup and margin are converted in one tested function, so a 30% markup is never quoted as a 30% margin, and every figure states what it excludes. Covers the full quote lifecycle (draft, sent, approved, rejected, expired), branded PDF documents, a client view with a signed copy, and a pipeline of sent versus signed value.
+
+**Payroll Intake & Control: from client files to approved payroll.** A unified intake template, a rules engine that validates every row (including ID check-digit validation) and quarantines what fails with the reason, integration with the time-and-attendance system, and the monthly payroll cycle end to end. Controls against ghost employees and inflated hours, anomaly detection on attendance, and AI agents that flag and suggest but never approve. Specified in a full requirements document: data model, permissions matrix, traceability matrix, test plan and rollout.
 
 ### Quantitative modelling & machine learning
 - **Algorithmic trading:** designed, built and ran my own system on Israeli and US equity markets for several years. Statistical signals, risk rules and execution logic, all on live capital.
