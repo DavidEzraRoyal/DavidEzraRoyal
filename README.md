@@ -21,8 +21,25 @@ Site-level P&L, receivables ageing, payroll reconciliation, a 13-week cash-flow 
 **~64K lines · 50 pages · 28 schema migrations · 45 test suites · CI on every pull request.**
 → [Case study](https://github.com/DavidEzraRoyal/finance-ops-platform-case-study)
 
+### Quantitative modelling & machine learning
+- **Algorithmic trading:** designed, built and ran my own system on Israeli and US equity markets for several years. Statistical signals, risk rules and execution logic, all on live capital.
+- **Learning systems:** a text-mining layer that learns, inside an algo-trading platform (Athena Solutions, Java backend).
+- **Financial modelling:** DCF and multiples valuations, scenario and sensitivity analysis, credit analysis across ~75 credit files, and rolling 13-week cash-flow forecasting.
+- **Applied AI in production:** LLMs integrated into finance and operations workflows, used by real teams every day.
+
+> What I bring is the bridge: I define the business question, check the data, test that the model is valid, and turn the output into a decision a CEO or an investment committee can act on.
+
+### How I work with clients
+| Engagement | Typical outcome |
+|---|---|
+| Fractional CFO / finance transformation | Budget vs actual, cash forecasting, KPI reporting the board trusts |
+| Valuation & M&A | Defensible models, buy-side due diligence, normalised EBITDA, deal structure |
+| Capital raising | Debt and equity strategy, lender and investor materials |
+| Finance systems & data platforms | Spreadsheets replaced by a tested, role-secured platform |
+| Quant models & applied AI | Models that are validated, explainable and wired into the workflow |
+
 ### Stack
-`TypeScript` `Next.js` `React` `PostgreSQL` `Supabase` `Drizzle` `Python` `Java` `SQL` `Vercel` `GitHub Actions` `LLM integration`
+`TypeScript` `Next.js` `React` `PostgreSQL` `Supabase` `Drizzle` `Python` `Java` `SQL` `Vercel` `GitHub Actions` `LLM integration` `Statistical modelling` `Time-series forecasting`
 
 ### Domains
 Corporate finance · FP&A · Valuation (DCF, multiples) · M&A due diligence · Debt & equity raising · Algorithmic trading · Defense-sector supplier compliance (MoD registration, ISO 9001/45001/14001)
